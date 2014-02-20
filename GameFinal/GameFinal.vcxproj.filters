@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src\ResourceObject">
+      <UniqueIdentifier>{f53d05ec-ce26-48fb-989c-bab2e6321b6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ResourceObject\Direct3D11">
+      <UniqueIdentifier>{f019bd24-8d12-4aad-b32a-8f39bba42e44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ResourceObject\Interface">
+      <UniqueIdentifier>{d4396311-c69f-47f3-9182-945fc1a6c6a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ResourceObject\Class">
+      <UniqueIdentifier>{2e3823a5-1d0e-49bb-87dc-325649784bcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SceneNode">
+      <UniqueIdentifier>{e39dc235-b328-4061-aebd-06b5daec9e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SceneNode\Class">
+      <UniqueIdentifier>{45e36f11-1ce7-4dc7-981b-4d3a26fb26e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SceneNode\Interface">
+      <UniqueIdentifier>{890241d9-25f9-4fdb-9b0c-d1d844eac048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core">
+      <UniqueIdentifier>{bb2bdc39-1b00-49f3-b2e5-ffb6acbe7a10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core\Direct3D11">
+      <UniqueIdentifier>{6f5095c2-2ef3-4530-97a9-74bfc1c10411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core\Class">
+      <UniqueIdentifier>{c32d8ff5-1d22-4b48-86e8-039504ad5b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core\Interface">
+      <UniqueIdentifier>{c89e444a-415b-489b-912e-ba4611dcd7bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ResourceManager">
+      <UniqueIdentifier>{131fe518-4448-4c71-bb3a-dd3785d0f3bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ResourceManager\Interface">
+      <UniqueIdentifier>{6f6c395e-4f0c-4764-8be0-57bc7d32f44e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ResourceManager\Class">
+      <UniqueIdentifier>{ef9f53d8-2b47-4710-a056-8b7056c54368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ResourceManager\Direct3D11">
+      <UniqueIdentifier>{2096480e-1a87-4738-bc1b-440b1d90174f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Util">
+      <UniqueIdentifier>{3e63ec92-4fe6-4fee-9302-5f8fb1dc4ce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Util\Interface">
+      <UniqueIdentifier>{96f9c141-b828-4b20-8c8b-fed275ef8f10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Util\Class">
+      <UniqueIdentifier>{0aafd708-92d6-4db9-8b9f-b4b19febc1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Util\Headers">
+      <UniqueIdentifier>{59cdbf5d-bf6e-4537-ac36-b4d48f64312d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dependencies">
+      <UniqueIdentifier>{a9b0beee-8a1f-4f0f-99e2-362276063610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dependencies\tinyxml">
+      <UniqueIdentifier>{cc7742c3-021f-487c-bc22-c3b665ab7ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Collision">
+      <UniqueIdentifier>{576d5810-1744-4209-bf21-33c6fedd2f26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Collision\Class">
+      <UniqueIdentifier>{7b209f88-6701-4451-83ee-70094e450eef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dependencies\xnacollision">
+      <UniqueIdentifier>{e50c0a1b-f1fd-4c09-8a93-717c74910a55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFinal.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3D11Shader.h">
+      <Filter>src\ResourceObject\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3D11InputLayout.h">
+      <Filter>src\ResourceObject\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3D11Pipeline.h">
+      <Filter>src\ResourceObject\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3D11PixelShader.h">
+      <Filter>src\ResourceObject\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3D11RenderState.h">
+      <Filter>src\ResourceObject\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3D11ShaderContext.h">
+      <Filter>src\ResourceObject\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3D11SimpleMesh.h">
+      <Filter>src\ResourceObject\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3D11Texture.h">
+      <Filter>src\ResourceObject\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3D11VertexShader.h">
+      <Filter>src\ResourceObject\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="IShader.h">
+      <Filter>src\ResourceObject\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IPipeline.h">
+      <Filter>src\ResourceObject\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IMesh.h">
+      <Filter>src\ResourceObject\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IShaderContext.h">
+      <Filter>src\ResourceObject\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ITexture.h">
+      <Filter>src\ResourceObject\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IInputLayout.h">
+      <Filter>src\ResourceObject\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderState.h">
+      <Filter>src\ResourceObject\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CPipeline.h">
+      <Filter>src\ResourceObject\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="CMeshNode.h">
+      <Filter>src\SceneNode\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="CLightNode.h">
+      <Filter>src\SceneNode\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="ILightNode.h">
+      <Filter>src\SceneNode\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ISceneNode.h">
+      <Filter>src\SceneNode\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IMeshNode.h">
+      <Filter>src\SceneNode\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3D11Driver.h">
+      <Filter>src\Core\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="IVideoDriver.h">
+      <Filter>src\Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IShaderManager.h">
+      <Filter>src\ResourceManager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IInputLayoutManager.h">
+      <Filter>src\ResourceManager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ITextureManager.h">
+      <Filter>src\ResourceManager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IPipelineManager.h">
+      <Filter>src\ResourceManager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderStateManager.h">
+      <Filter>src\ResourceManager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ISceneManager.h">
+      <Filter>src\Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IMaterialManager.h">
+      <Filter>src\ResourceManager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>src\Core\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="IDevice.h">
+      <Filter>src\Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CWin32Device.h">
+      <Filter>src\Core\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextureManager.h">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="CRenderStateManager.h">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="CPipelineManager.h">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="CMaterialManager.h">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="IReferenceCounted.h">
+      <Filter>src\Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="gfTypes.h">
+      <Filter>src\Util\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gfUtil.h">
+      <Filter>src\Util\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gfCompileConfig.h">
+      <Filter>src\Util\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CWin32Timer.h">
+      <Filter>src\Util\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="ITimer.h">
+      <Filter>src\Util\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IResourceFactory.h">
+      <Filter>src\ResourceManager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3D11ResourceFactory.h">
+      <Filter>src\ResourceManager\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="IGeometryCreator.h">
+      <Filter>src\Util\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CGeometryCreator.h">
+      <Filter>src\Util\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="gfMath.h">
+      <Filter>src\Util\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="CShaderManager.h">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DUtil.h">
+      <Filter>src\Util\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="CSortCodeAllocator.h">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="CInputLayoutManager.h">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3D11RenderStateCache.h">
+      <Filter>src\ResourceManager\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="IMeshManager.h">
+      <Filter>src\ResourceManager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CMeshManager.h">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="CResourceGroupManager.h">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="IResourceGroupManager.h">
+      <Filter>src\ResourceManager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IResourceLoader.h">
+      <Filter>src\ResourceManager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CResourceLoader.h">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="IResourceXmlParser.h">
+      <Filter>src\ResourceManager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CResourceXmlParser.h">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml\tinyxml2.h">
+      <Filter>src\dependencies\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="gfGIFormat.h">
+      <Filter>src\Util\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="IMaterial.h">
+      <Filter>src\ResourceObject\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="SReferenceCounted.h">
+      <Filter>src\Core\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ICameraNode.h">
+      <Filter>src\SceneNode\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraNode.h">
+      <Filter>src\SceneNode\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="CFpsCameraNode.h">
+      <Filter>src\SceneNode\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="IFpsCameraNode.h">
+      <Filter>src\SceneNode\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IModelFileParser.h">
+      <Filter>src\ResourceManager\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CModelFileParser.h">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="SAxisAlignedBox.h">
+      <Filter>src\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="xnacollision\xnacollision.h">
+      <Filter>src\dependencies\xnacollision</Filter>
+    </ClInclude>
+    <ClInclude Include="IModelMesh.h">
+      <Filter>src\ResourceObject\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CModelMesh.h">
+      <Filter>src\ResourceObject\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="CResourceFactory.h">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="IShaderVariableInjection.h">
+      <Filter>src\Util\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CShaderVariableInjection.h">
+      <Filter>src\Util\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="IAnimatedMeshNode.h">
+      <Filter>src\SceneNode\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimatedMeshNode.h">
+      <Filter>src\SceneNode\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="IAnimatedMesh.h">
+      <Filter>src\ResourceObject\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimatedMesh.h">
+      <Filter>src\ResourceObject\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="IMeshBuffer.h">
+      <Filter>src\ResourceObject\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3D11MeshBuffer.h">
+      <Filter>src\ResourceObject\Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="EMemoryUsage.h">
+      <Filter>src\Util\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ISimpleMesh.h">
+      <Filter>src\ResourceObject\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CSimpleMesh.h">
+      <Filter>src\ResourceObject\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="CModelMeshNode.h">
+      <Filter>src\SceneNode\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="IModelMeshNode.h">
+      <Filter>src\SceneNode\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="IAnimatedMeshBuffer.h">
+      <Filter>src\ResourceObject\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CD3D11AnimatedMeshBuffer.h">
+      <Filter>src\ResourceObject\Direct3D11</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CD3D11ResourceFactory.cpp">
+      <Filter>src\ResourceManager\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="CMaterialManager.cpp">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CPipelineManager.cpp">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CRenderStateManager.cpp">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextureManager.cpp">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CD3D11Driver.cpp">
+      <Filter>src\Core\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="CWin32Device.cpp">
+      <Filter>src\Core\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>src\Core\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CD3D11InputLayout.cpp">
+      <Filter>src\ResourceObject\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="CD3D11Pipeline.cpp">
+      <Filter>src\ResourceObject\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="CD3D11PixelShader.cpp">
+      <Filter>src\ResourceObject\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="CD3D11RenderState.cpp">
+      <Filter>src\ResourceObject\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="CD3D11Shader.cpp">
+      <Filter>src\ResourceObject\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="CD3D11ShaderContext.cpp">
+      <Filter>src\ResourceObject\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="CD3D11SimpleMesh.cpp">
+      <Filter>src\ResourceObject\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="CD3D11Texture.cpp">
+      <Filter>src\ResourceObject\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="CD3D11VertexShader.cpp">
+      <Filter>src\ResourceObject\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="CPipeline.cpp">
+      <Filter>src\ResourceObject\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CLightNode.cpp">
+      <Filter>src\SceneNode\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CMeshNode.cpp">
+      <Filter>src\SceneNode\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CGeometryCreator.cpp">
+      <Filter>src\Util\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CWin32Timer.cpp">
+      <Filter>src\Util\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="gfMath.cpp">
+      <Filter>src\Util\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CShaderManager.cpp">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFinal.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DUtil.cpp">
+      <Filter>src\Util\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CInputLayoutManager.cpp">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CD3D11RenderStateCache.cpp">
+      <Filter>src\ResourceManager\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="CMeshManager.cpp">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CResourceGroupManager.cpp">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CResourceLoader.cpp">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CResourceXmlParser.cpp">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml\tinyxml2.cpp">
+      <Filter>src\dependencies\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraNode.cpp">
+      <Filter>src\SceneNode\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CFpsCameraNode.cpp">
+      <Filter>src\SceneNode\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="xnacollision\xnacollision.cpp">
+      <Filter>src\dependencies\xnacollision</Filter>
+    </ClCompile>
+    <ClCompile Include="CModelFileParser.cpp">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CModelMesh.cpp">
+      <Filter>src\ResourceObject\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CResourceFactory.cpp">
+      <Filter>src\ResourceManager\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CShaderVariableInjection.cpp">
+      <Filter>src\Util\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimatedMesh.cpp">
+      <Filter>src\ResourceObject\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimatedMeshNode.cpp">
+      <Filter>src\SceneNode\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="SBoneAnimation.cpp">
+      <Filter>src\ResourceObject\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="CD3D11MeshBuffer.cpp">
+      <Filter>src\ResourceObject\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="CSimpleMesh.cpp">
+      <Filter>src\ResourceObject\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CModelMeshNode.cpp">
+      <Filter>src\SceneNode\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="CD3D11AnimatedMeshBuffer.cpp">
+      <Filter>src\ResourceObject\Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="SMaterial.cpp">
+      <Filter>src\ResourceObject\Class</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

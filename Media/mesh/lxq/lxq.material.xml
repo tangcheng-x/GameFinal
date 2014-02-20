@@ -1,0 +1,50 @@
+<materials>
+    <material name="lxq/material_00">
+        <ambient color="1.000000, 1.000000, 1.000000, 1.000000"/>
+        <diffuse color="1.000000, 1.000000, 1.000000, 1.000000"/>
+        <specular color="0.000000, 0.000000, 0.000000, 1.000000"/>
+        <emissive color="0.000000, 0.000000, 0.000000, 1.000000"/>
+        <pipelines>
+            <pipeline name="lxq/skeleton_pipeline_01"/>
+        </pipelines>
+        <textures>
+            <texture name="bd378f0.bmp"/>
+        </textures>
+    </material>
+    <material name="lxq/material_01">
+        <ambient color="1.000000, 1.000000, 1.000000, 1.000000"/>
+        <diffuse color="1.000000, 1.000000, 1.000000, 1.000000"/>
+        <specular color="0.000000, 0.000000, 0.000000, 1.000000"/>
+        <emissive color="0.000000, 0.000000, 0.000000, 1.000000"/>
+        <pipelines>
+            <pipeline name="lxq/skeleton_pipeline_01"/>
+        </pipelines>
+        <textures>
+            <texture name="9496a70.bmp"/>
+        </textures>
+    </material>
+    <material name="lxq/material_02">
+        <ambient color="1.000000, 1.000000, 1.000000, 1.000000"/>
+        <diffuse color="1.000000, 1.000000, 1.000000, 1.000000"/>
+        <specular color="0.000000, 0.000000, 0.000000, 1.000000"/>
+        <emissive color="0.000000, 0.000000, 0.000000, 1.000000"/>
+        <pipelines>
+            <pipeline name="lxq/skeleton_pipeline_01"/>
+        </pipelines>
+        <textures>
+            <texture name="9622210.bmp"/>
+        </textures>
+    </material>
+    <material name="lxq/material_03">
+        <ambient color="1.000000, 1.000000, 1.000000, 1.000000"/>
+        <diffuse color="1.000000, 1.000000, 1.000000, 1.000000"/>
+        <specular color="0.000000, 0.000000, 0.000000, 1.000000"/>
+        <emissive color="0.000000, 0.000000, 0.000000, 1.000000"/>
+        <pipelines>
+            <pipeline name="lxq/skeleton_pipeline_01"/>
+        </pipelines>
+        <textures>
+            <texture name="353bd50.bmp"/>
+        </textures>
+    </material>
+</materials>

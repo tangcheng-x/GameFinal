@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<GUILayout>
+     <Window Type="DefaultWindow" Name="CombatGUI" >
+        <Property Name="Font" Value="MSYH-15" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+     </Window>
+</GUILayout>

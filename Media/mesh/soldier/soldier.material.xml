@@ -1,0 +1,50 @@
+<materials>
+    <material name="soldier/material_00">
+        <ambient color="1.000000, 1.000000, 1.000000, 1.000000"/>
+        <diffuse color="1.000000, 1.000000, 1.000000, 1.000000"/>
+        <specular color="0.000000, 0.000000, 0.000000, 1.000000"/>
+        <emissive color="0.000000, 0.000000, 0.000000, 1.000000"/>
+        <pipelines>
+            <pipeline name="soldier/skeleton_pipeline_01"/>
+        </pipelines>
+        <textures>
+            <texture name="body.jpg"/>
+        </textures>
+    </material>
+    <material name="soldier/material_01">
+        <ambient color="1.000000, 1.000000, 1.000000, 1.000000"/>
+        <diffuse color="1.000000, 1.000000, 1.000000, 1.000000"/>
+        <specular color="0.000000, 0.000000, 0.000000, 1.000000"/>
+        <emissive color="0.000000, 0.000000, 0.000000, 1.000000"/>
+        <pipelines>
+            <pipeline name="soldier/skeleton_pipeline_01"/>
+        </pipelines>
+        <textures>
+            <texture name="face.jpg"/>
+        </textures>
+    </material>
+    <material name="soldier/material_02">
+        <ambient color="1.000000, 1.000000, 1.000000, 1.000000"/>
+        <diffuse color="1.000000, 1.000000, 1.000000, 1.000000"/>
+        <specular color="0.000000, 0.000000, 0.000000, 1.000000"/>
+        <emissive color="0.000000, 0.000000, 0.000000, 1.000000"/>
+        <pipelines>
+            <pipeline name="soldier/pipeline_01"/>
+        </pipelines>
+        <textures>
+            <texture name="helmet.jpg"/>
+        </textures>
+    </material>
+    <material name="soldier/material_03">
+        <ambient color="1.000000, 1.000000, 1.000000, 1.000000"/>
+        <diffuse color="1.000000, 1.000000, 1.000000, 1.000000"/>
+        <specular color="0.000000, 0.000000, 0.000000, 1.000000"/>
+        <emissive color="0.000000, 0.000000, 0.000000, 1.000000"/>
+        <pipelines>
+            <pipeline name="soldier/pipeline_01"/>
+        </pipelines>
+        <textures>
+            <texture name="pulserifle.jpg"/>
+        </textures>
+    </material>
+</materials>

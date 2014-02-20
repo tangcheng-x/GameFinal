@@ -1,0 +1,22 @@
+<pipelines>
+    <pipeline name="dwarf/skeleton_pipeline_01">
+        <input-layout>
+            <element semantic="POSITION" format="float3"/>
+            <element semantic="NORMAL" format="float3"/>
+            <element semantic="TEXCOORD" format="float2"/>
+            <element semantic="BONEINDICES" format="byte4"/>
+            <element semantic="WEIGHTS" format="float3"/>
+        </input-layout>
+        <shaders>
+            <vertex-shader file="soldier.hlsl" main="skeleton_vs_main">
+                <variable name="gWorld" value="world_matrix"/>
+                <variable name="gViewProj" value="viewproj_matrix"/>
+                <variable name="gBoneTransforms" value="bone_transforms"/>
+            </vertex-shader>
+            <pixel-shader file="soldier.hlsl" main="ps_main">
+                <variable name="gTexture" value="texture"/>
+            </pixel-shader>
+        </shaders>
+        <!--You can put render-states here.-->
+    </pipeline>
+</pipelines>

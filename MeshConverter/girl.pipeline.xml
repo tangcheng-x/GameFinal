@@ -1,0 +1,19 @@
+<pipelines>
+    <pipeline name="girl/pipeline_01">
+        <input-layout>
+            <element semantic="POSITION" format="float3"/>
+            <element semantic="NORMAL" format="float3"/>
+            <element semantic="TEXCOORD" format="float2"/>
+        </input-layout>
+        <shaders>
+            <vertex-shader file="girl.hlsl" main="vs_main">
+                <variable name="gWorld" value="world_matrix"/>
+                <variable name="gViewProj" value="viewproj_matrix"/>
+            </vertex-shader>
+            <pixel-shader file="girl.hlsl" main="ps_main">
+                <variable name="gTexture" value="texture"/>
+            </pixel-shader>
+        </shaders>
+        <!--You can put render-states here.-->
+    </pipeline>
+</pipelines>

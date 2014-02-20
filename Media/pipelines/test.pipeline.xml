@@ -1,0 +1,72 @@
+<pipelines>
+  <pipeline name="test/pipeline01">
+    <primitive-type value="triangle_list"/>
+    <input-layout>
+      <element semantic="POSITION" index="0" format="float3" slot="0" instance="false" instance-rate="0.0"></element>
+      <element semantic="NORMAL" format="float3"></element>
+      <element semantic="TANGENT" format="float3"></element>
+      <element semantic="TEXCOORD" format="float2"></element>
+    </input-layout>
+    <shaders>
+      <vertex-shader file="vs.hlsl" main="vs_main">
+        <variable name="gWorld" value="world_matrix"/>
+        <variable name="gViewProj" value="viewproj_matrix"/>
+      </vertex-shader>
+      <pixel-shader file="ps.hlsl" main="ps_main">
+        <variable name="gTexture1" value="texture" index="0"/>
+        <variable name="gLight" value="light" index="1"/>
+        <variable name="gMaterial" value="material"/>
+        <variable name="gEyePos" value="camera_position"/>
+      </pixel-shader>
+    </shaders>
+    <render-states>
+      <render-state name="stencil_read_mask" value="0x0000ffff"/>
+      <!--<render-state name="fill_mode" value="wireframe"/>-->
+    </render-states>
+  </pipeline>
+
+  <pipeline name="test/pipeline02">
+    <primitive-type value="triangle_list"/>
+    <input-layout>
+      <element semantic="POSITION" index="0" format="float3" slot="0" instance="false" instance-rate="0.0"></element>
+      <element semantic="NORMAL" format="float3"></element>
+      <element semantic="TANGENT" format="float3"></element>
+      <element semantic="TEXCOORD" format="float2"></element>
+    </input-layout>
+    <shaders>
+      <vertex-shader file="vs.hlsl" main="vs_main">
+        <variable name="gWorld" value="world_matrix" update-frequency="frame"/>
+        <variable name="gViewProj" value="viewproj_matrix"/>
+      </vertex-shader>
+      <pixel-shader file="ps.hlsl" main="border_ps_main">
+      </pixel-shader>
+    </shaders>
+    <render-states>
+      <render-state name="fill_mode" value="wireframe"/>
+      <render-state name="depth_func" value="less_equal"/>
+    </render-states>
+  </pipeline>
+
+  <!--
+  <pipeline name="test/ground_pipeline">
+    <input-layout>
+      <element semantic="POSITION" format="float3"></element>
+      <element semantic="NORMAL" format="float3"></element>
+      <element semantic="TANGENT" format="float3"></element>
+      <element semantic="TEXCOORD" format="float2"></element>
+    </input-layout>
+    <shaders>
+      <vertex-shader file="ground.hlsl" main="vs_main">
+        <variable name="gWorld" value="world_matrix"/>
+        <variable name="gViewProj" value="viewproj_matrix"/>
+      </vertex-shader>
+      <pixel-shader file="ground.hlsl" main="ps_main">
+        
+        
+      </pixel-shader>
+    </shaders>
+    
+  </pipeline>
+-->  
+  
+</pipelines>

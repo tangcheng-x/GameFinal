@@ -1,0 +1,46 @@
+<materials>
+  <material name="test/material01">
+    <ambient  color="0.5f, 0.5f, 0.5f"/>
+    <diffuse  color="0.5f, 0.5f, 0.5f, 1.0f"/>
+    <specular color="1.0f, 1.0f, 1.0f, 1.0f"/>
+    <emissive color="0.5f, 0.5f, 0.5f, 1.0f"/>
+
+    <pipelines>
+      <pipeline name="test/pipeline01"/>
+      <pipeline name="test/pipeline02"/>
+      
+    </pipelines>
+
+    <textures>
+      <texture name="gta.jpg" index="0"/>
+    </textures>
+    
+  </material>
+
+  <material name="test/material02">
+    <ambient  color="0.8f, 0.5f, 0.5f"/>
+    <diffuse  color="0.8f, 0.5f, 0.5f, 1.0f"/>
+    <specular color="0.8f, 0.5f, 0.5f, 1.0f"/>
+    <emissive color="0.8f, 0.5f, 0.5f, 1.0f"/>
+    <pipelines>
+      <pipeline name="test/pipeline01"/>
+    </pipelines>
+    <textures>
+      <texture name="gta.jpg" index="0"/>
+    </textures>
+  </material>
+
+
+  <material name="test/ground_material">
+    <ambient  color="0.5f, 0.5f, 0.5f, 1.0f"/>
+    <diffuse  color="0.5f, 0.5f, 0.5f, 1.0f"/>
+    <specular color="0.5f, 0.5f, 0.5f, 1.0f"/>
+    <emissive color="0.5f, 0.5f, 0.5f, 1.0f"/>
+    <pipelines>
+      <pipeline name="test/pipeline01"/>
+    </pipelines>
+    <textures>
+      <texture name="stones.jpg" index="0"/>
+    </textures>
+  </material>
+</materials>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+        <Window Type="GlossySerpent/FrameWindow" Name="PauseMenu" >
+            <Property Name="Alpha" Value="0.75" />
+            <Property Name="TitlebarFont" Value="DejaVuSans-HD-10" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedPosition" Value="{ {0, 0}, {0, 0} }" />
+            <Property Name="UnifiedSize" Value="{ {0, 300}, {0, 400} }" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Window Type="GlossySerpent/Button" Name="SettingButton2" >
+                <Property Name="Font" Value="MSYH-15" />
+                <Property Name="Text" Value="选项" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.17305,0},{0.100565,0},{0.841489,0},{0.234746,0}}" />
+            </Window>
+            <Window Type="GlossySerpent/Button" Name="SaveButton" >
+                <Property Name="Font" Value="MSYH-15" />
+                <Property Name="Text" Value="保存" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.170213,0},{0.29096,0},{0.835106,0},{0.439265,0}}" />
+            </Window>
+            <Window Type="GlossySerpent/Button" Name="ReturnButton" >
+                <Property Name="Font" Value="MSYH-15" />
+                <Property Name="Text" Value="返回游戏" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.171631,0},{0.499435,0},{0.832979,0},{0.650566,0}}" />
+            </Window>
+            <Window Type="GlossySerpent/Button" Name="ExitButton" >
+                <Property Name="Font" Value="MSYH-15" />
+                <Property Name="Text" Value="退出游戏" />
+                <Property Name="InheritsAlpha" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0.175887,0},{0.71808,0},{0.830142,0},{0.86356,0}}" />
+            </Window>
+        </Window>
+</GUILayout>
